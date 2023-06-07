@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Flexbox - Freelancer Website</title>
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="main-navigation">
+        <a href="#">Home</a>
+        <a href="#">About us</a>
+        <a href="#">Clients & Work</a>
+        <a href="#">Contact us</a>
+      </nav>
+    </header>
+
+    <div class="hero">
+      <div class="hero-content">
+        <h1>Freelance Website</h1>
+        <p><i class="fa-solid fa-location-dot"></i>Lagos, Nigeria</p>
+        <a class="button" href="#">Contact Us Here</a>
+      </div>
+    </div>
+
+    <div class="container">
+      <main class="services">
+        <h2>My services</h2>
+        <div class="services-container">
+          <div class="service">
+            <h3>Web design</h3>
+            <div class="icon">
+              <i class="fa-solid fa-pen-nib"></i>
+            </div>
+            <p>
+              ipsum dolor sit amet consectetur adipisicing elit. Vel sit nobis
+              eligendi impedit quis, nostrum ducimus molestias fugit asperiores
+              ratione expedita aspernatur illum iusto vero earum, quia ipsum.
+              Aspernatur, labore.
+            </p>
+          </div>
+          <!-- service end -->
+
+          <div class="service">
+            <h3>App development</h3>
+            <div class="icon">
+              <i class="fa-brands fa-android"></i>
+              <i class="fa-brands fa-apple"></i>
+            </div>
+            <p>
+              ipsum dolor sit amet consectetur adipisicing elit. Vel sit nobis
+              eligendi impedit quis, nostrum ducimus molestias fugit asperiores
+              ratione expedita aspernatur illum iusto vero earum, quia ipsum.
+              Aspernatur, labore.
+            </p>
+          </div>
+          <!-- service end -->
+
+          <div class="service">
+            <h3>Social Media</h3>
+            <div class="icon">
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-facebook"></i>
+            </div>
+            <p>
+              ipsum dolor sit amet consectetur adipisicing elit. Vel sit nobis
+              eligendi impedit quis, nostrum ducimus molestias fugit asperiores
+              ratione expedita aspernatur illum iusto vero earum, quia ipsum.
+              Aspernatur, labore.
+            </p>
+          </div>
+          <!-- service end -->
+        </div>
+      </main>
+
+      <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form action="#">
+          <div class="form-container">
+            <div class="field">
+              <label for="name">Name:</label>
+              <input type="text" placeholder="Name" />
+            </div>
+
+            <div class="field">
+              <label for="Pnonenumber">Phone Number:</label>
+              <input type="tel" placeholder="Pnone Number" />
+            </div>
+
+            <div class="field w-100">
+              <label for="Email">Email:</label>
+              <input type="mail" placeholder="Email" />
+            </div>
+
+            <div class="field w-100">
+              <label for="Message">Message:</label>
+              <textarea cols="30" rows="5"></textarea>
+            </div>
+          </div>
+          <!-- form-container -->
+          <div class="submit-form">
+            <input class="button" type="submit" value="send" />
+          </div>
+        </form>
+      </section>
+    </div>
+  </body>
+</html>
